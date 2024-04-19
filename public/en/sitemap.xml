@@ -2,358 +2,358 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3030/en/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/"
+                href="http://localhost:3030/solution-full-website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/"
+                href="http://localhost:3030/solution-full-website/en/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/application/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/application/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/application/"
+                href="http://localhost:3030/solution-full-website/categories/application/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/application/"
+                href="http://localhost:3030/solution-full-website/en/categories/application/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/architecture/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/architecture/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/architecture/"
+                href="http://localhost:3030/solution-full-website/categories/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/architecture/"
+                href="http://localhost:3030/solution-full-website/en/categories/architecture/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/blog/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/blog/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/blog/"
+                href="http://localhost:3030/solution-full-website/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/blog/"
+                href="http://localhost:3030/solution-full-website/en/blog/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/"
+                href="http://localhost:3030/solution-full-website/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/"
+                href="http://localhost:3030/solution-full-website/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/data/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/data/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/data/"
+                href="http://localhost:3030/solution-full-website/categories/data/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/data/"
+                href="http://localhost:3030/solution-full-website/en/categories/data/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/blog/post-1/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/blog/post-1/"
+                href="http://localhost:3030/solution-full-website/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/blog/post-1/"
+                href="http://localhost:3030/solution-full-website/en/blog/post-1/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/blog/post-2/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/blog/post-2/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/blog/post-2/"
+                href="http://localhost:3030/solution-full-website/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/blog/post-2/"
+                href="http://localhost:3030/solution-full-website/en/blog/post-2/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/blog/post-3/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/blog/post-3/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/blog/post-3/"
+                href="http://localhost:3030/solution-full-website/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/blog/post-3/"
+                href="http://localhost:3030/solution-full-website/en/blog/post-3/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/blog/post-4/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/blog/post-4/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/blog/post-4/"
+                href="http://localhost:3030/solution-full-website/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/blog/post-4/"
+                href="http://localhost:3030/solution-full-website/en/blog/post-4/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/nextjs/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/nextjs/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/nextjs/"
+                href="http://localhost:3030/solution-full-website/tags/nextjs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/nextjs/"
+                href="http://localhost:3030/solution-full-website/en/tags/nextjs/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/silicon/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/silicon/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/silicon/"
+                href="http://localhost:3030/solution-full-website/tags/silicon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/silicon/"
+                href="http://localhost:3030/solution-full-website/en/tags/silicon/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/software/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/software/"
+                href="http://localhost:3030/solution-full-website/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/software/"
+                href="http://localhost:3030/solution-full-website/en/tags/software/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/software/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/software/"
+                href="http://localhost:3030/solution-full-website/categories/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/software/"
+                href="http://localhost:3030/solution-full-website/en/categories/software/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/"
+                href="http://localhost:3030/solution-full-website/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/"
+                href="http://localhost:3030/solution-full-website/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/tailwind/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/tailwind/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/tailwind/"
+                href="http://localhost:3030/solution-full-website/tags/tailwind/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/tailwind/"
+                href="http://localhost:3030/solution-full-website/en/tags/tailwind/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/tags/technology/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/tags/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/tags/technology/"
+                href="http://localhost:3030/solution-full-website/tags/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/tags/technology/"
+                href="http://localhost:3030/solution-full-website/en/tags/technology/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/categories/technology/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/categories/technology/"
+                href="http://localhost:3030/solution-full-website/categories/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/categories/technology/"
+                href="http://localhost:3030/solution-full-website/en/categories/technology/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/authors/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/authors/"
+                href="http://localhost:3030/solution-full-website/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/authors/"
+                href="http://localhost:3030/solution-full-website/en/authors/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/contact/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/contact/"
+                href="http://localhost:3030/solution-full-website/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/contact/"
+                href="http://localhost:3030/solution-full-website/en/contact/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/elements/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/elements/"
+                href="http://localhost:3030/solution-full-website/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/elements/"
+                href="http://localhost:3030/solution-full-website/en/elements/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/about/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/about/"
+                href="http://localhost:3030/solution-full-website/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/about/"
+                href="http://localhost:3030/solution-full-website/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/authors/john-doe/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/authors/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/authors/john-doe/"
+                href="http://localhost:3030/solution-full-website/authors/john-doe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/authors/john-doe/"
+                href="http://localhost:3030/solution-full-website/en/authors/john-doe/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/pages/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/pages/"
+                href="http://localhost:3030/solution-full-website/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/pages/"
+                href="http://localhost:3030/solution-full-website/en/pages/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/privacy-policy/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/privacy-policy/"
+                href="http://localhost:3030/solution-full-website/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/privacy-policy/"
+                href="http://localhost:3030/solution-full-website/en/privacy-policy/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/authors/sam-wilson/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/authors/sam-wilson/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/authors/sam-wilson/"
+                href="http://localhost:3030/solution-full-website/authors/sam-wilson/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/authors/sam-wilson/"
+                href="http://localhost:3030/solution-full-website/en/authors/sam-wilson/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/sections/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/sections/"
+                href="http://localhost:3030/solution-full-website/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/sections/"
+                href="http://localhost:3030/solution-full-website/en/sections/"
                 />
   </url><url>
-    <loc>http://localhost:3030/en/authors/william-jacob/</loc>
+    <loc>http://localhost:3030/solution-full-website/en/authors/william-jacob/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/authors/william-jacob/"
+                href="http://localhost:3030/solution-full-website/authors/william-jacob/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/en/authors/william-jacob/"
+                href="http://localhost:3030/solution-full-website/en/authors/william-jacob/"
                 />
   </url>
 </urlset>

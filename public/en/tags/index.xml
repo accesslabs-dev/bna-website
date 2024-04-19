@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Solution</title>
-    <link>http://localhost:3030/en/tags/</link>
+    <link>http://localhost:3030/solution-full-website/en/tags/</link>
     <description>Recent content in Tags on Solution</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:3030/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3030/solution-full-website/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nextjs</title>
-      <link>http://localhost:3030/en/tags/nextjs/</link>
+      <link>http://localhost:3030/solution-full-website/en/tags/nextjs/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/en/tags/nextjs/</guid>
+      <guid>http://localhost:3030/solution-full-website/en/tags/nextjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Silicon</title>
-      <link>http://localhost:3030/en/tags/silicon/</link>
+      <link>http://localhost:3030/solution-full-website/en/tags/silicon/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/en/tags/silicon/</guid>
+      <guid>http://localhost:3030/solution-full-website/en/tags/silicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:3030/en/tags/software/</link>
+      <link>http://localhost:3030/solution-full-website/en/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/en/tags/software/</guid>
+      <guid>http://localhost:3030/solution-full-website/en/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>http://localhost:3030/en/tags/tailwind/</link>
+      <link>http://localhost:3030/solution-full-website/en/tags/tailwind/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/en/tags/tailwind/</guid>
+      <guid>http://localhost:3030/solution-full-website/en/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:3030/en/tags/technology/</link>
+      <link>http://localhost:3030/solution-full-website/en/tags/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/en/tags/technology/</guid>
+      <guid>http://localhost:3030/solution-full-website/en/tags/technology/</guid>
       <description></description>
     </item>
   </channel>

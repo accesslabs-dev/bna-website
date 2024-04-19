@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Solution</title>
-    <link>http://localhost:3030/categories/</link>
+    <link>http://localhost:3030/solution-full-website/categories/</link>
     <description>Recent content in Categories on Solution</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:3030/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3030/solution-full-website/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application</title>
-      <link>http://localhost:3030/categories/application/</link>
+      <link>http://localhost:3030/solution-full-website/categories/application/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/categories/application/</guid>
+      <guid>http://localhost:3030/solution-full-website/categories/application/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>http://localhost:3030/categories/architecture/</link>
+      <link>http://localhost:3030/solution-full-website/categories/architecture/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/categories/architecture/</guid>
+      <guid>http://localhost:3030/solution-full-website/categories/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>http://localhost:3030/categories/data/</link>
+      <link>http://localhost:3030/solution-full-website/categories/data/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/categories/data/</guid>
+      <guid>http://localhost:3030/solution-full-website/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:3030/categories/software/</link>
+      <link>http://localhost:3030/solution-full-website/categories/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/categories/software/</guid>
+      <guid>http://localhost:3030/solution-full-website/categories/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:3030/categories/technology/</link>
+      <link>http://localhost:3030/solution-full-website/categories/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/categories/technology/</guid>
+      <guid>http://localhost:3030/solution-full-website/categories/technology/</guid>
       <description></description>
     </item>
   </channel>
