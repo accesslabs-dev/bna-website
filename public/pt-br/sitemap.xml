@@ -2,358 +2,358 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:3030/</loc>
+    <loc>http://localhost:3030/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/"
+                href="http://localhost:3030/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/"
+                href="http://localhost:3030/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/application/</loc>
+    <loc>http://localhost:3030/categories/application/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/application/"
+                href="http://localhost:3030/en/categories/application/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/application/"
+                href="http://localhost:3030/categories/application/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/architecture/</loc>
+    <loc>http://localhost:3030/categories/architecture/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/architecture/"
+                href="http://localhost:3030/en/categories/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/architecture/"
+                href="http://localhost:3030/categories/architecture/"
                 />
   </url><url>
-    <loc>//localhost:3030/blog/</loc>
+    <loc>http://localhost:3030/blog/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/blog/"
+                href="http://localhost:3030/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/blog/"
+                href="http://localhost:3030/blog/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/</loc>
+    <loc>http://localhost:3030/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/"
+                href="http://localhost:3030/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/"
+                href="http://localhost:3030/categories/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/data/</loc>
+    <loc>http://localhost:3030/categories/data/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/data/"
+                href="http://localhost:3030/en/categories/data/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/data/"
+                href="http://localhost:3030/categories/data/"
                 />
   </url><url>
-    <loc>//localhost:3030/blog/post-1/</loc>
+    <loc>http://localhost:3030/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/blog/post-1/"
+                href="http://localhost:3030/en/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/blog/post-1/"
+                href="http://localhost:3030/blog/post-1/"
                 />
   </url><url>
-    <loc>//localhost:3030/blog/post-2/</loc>
+    <loc>http://localhost:3030/blog/post-2/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/blog/post-2/"
+                href="http://localhost:3030/en/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/blog/post-2/"
+                href="http://localhost:3030/blog/post-2/"
                 />
   </url><url>
-    <loc>//localhost:3030/blog/post-3/</loc>
+    <loc>http://localhost:3030/blog/post-3/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/blog/post-3/"
+                href="http://localhost:3030/en/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/blog/post-3/"
+                href="http://localhost:3030/blog/post-3/"
                 />
   </url><url>
-    <loc>//localhost:3030/blog/post-4/</loc>
+    <loc>http://localhost:3030/blog/post-4/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/blog/post-4/"
+                href="http://localhost:3030/en/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/blog/post-4/"
+                href="http://localhost:3030/blog/post-4/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/nextjs/</loc>
+    <loc>http://localhost:3030/tags/nextjs/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/nextjs/"
+                href="http://localhost:3030/en/tags/nextjs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/nextjs/"
+                href="http://localhost:3030/tags/nextjs/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/silicon/</loc>
+    <loc>http://localhost:3030/tags/silicon/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/silicon/"
+                href="http://localhost:3030/en/tags/silicon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/silicon/"
+                href="http://localhost:3030/tags/silicon/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/software/</loc>
+    <loc>http://localhost:3030/tags/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/software/"
+                href="http://localhost:3030/en/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/software/"
+                href="http://localhost:3030/tags/software/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/software/</loc>
+    <loc>http://localhost:3030/categories/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/software/"
+                href="http://localhost:3030/en/categories/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/software/"
+                href="http://localhost:3030/categories/software/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/</loc>
+    <loc>http://localhost:3030/tags/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/"
+                href="http://localhost:3030/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/"
+                href="http://localhost:3030/tags/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/tailwind/</loc>
+    <loc>http://localhost:3030/tags/tailwind/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/tailwind/"
+                href="http://localhost:3030/en/tags/tailwind/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/tailwind/"
+                href="http://localhost:3030/tags/tailwind/"
                 />
   </url><url>
-    <loc>//localhost:3030/tags/technology/</loc>
+    <loc>http://localhost:3030/tags/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/tags/technology/"
+                href="http://localhost:3030/en/tags/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/tags/technology/"
+                href="http://localhost:3030/tags/technology/"
                 />
   </url><url>
-    <loc>//localhost:3030/categories/technology/</loc>
+    <loc>http://localhost:3030/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/categories/technology/"
+                href="http://localhost:3030/en/categories/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/categories/technology/"
+                href="http://localhost:3030/categories/technology/"
                 />
   </url><url>
-    <loc>//localhost:3030/authors/</loc>
+    <loc>http://localhost:3030/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/authors/"
+                href="http://localhost:3030/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/authors/"
+                href="http://localhost:3030/authors/"
                 />
   </url><url>
-    <loc>//localhost:3030/contact/</loc>
+    <loc>http://localhost:3030/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/contact/"
+                href="http://localhost:3030/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/contact/"
+                href="http://localhost:3030/contact/"
                 />
   </url><url>
-    <loc>//localhost:3030/elements/</loc>
+    <loc>http://localhost:3030/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/elements/"
+                href="http://localhost:3030/en/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/elements/"
+                href="http://localhost:3030/elements/"
                 />
   </url><url>
-    <loc>//localhost:3030/about/</loc>
+    <loc>http://localhost:3030/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/about/"
+                href="http://localhost:3030/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/about/"
+                href="http://localhost:3030/about/"
                 />
   </url><url>
-    <loc>//localhost:3030/authors/john-doe/</loc>
+    <loc>http://localhost:3030/authors/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/authors/john-doe/"
+                href="http://localhost:3030/en/authors/john-doe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/authors/john-doe/"
+                href="http://localhost:3030/authors/john-doe/"
                 />
   </url><url>
-    <loc>//localhost:3030/pages/</loc>
+    <loc>http://localhost:3030/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/pages/"
+                href="http://localhost:3030/en/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/pages/"
+                href="http://localhost:3030/pages/"
                 />
   </url><url>
-    <loc>//localhost:3030/privacy-policy/</loc>
+    <loc>http://localhost:3030/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/privacy-policy/"
+                href="http://localhost:3030/en/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/privacy-policy/"
+                href="http://localhost:3030/privacy-policy/"
                 />
   </url><url>
-    <loc>//localhost:3030/authors/sam-wilson/</loc>
+    <loc>http://localhost:3030/authors/sam-wilson/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/authors/sam-wilson/"
+                href="http://localhost:3030/en/authors/sam-wilson/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/authors/sam-wilson/"
+                href="http://localhost:3030/authors/sam-wilson/"
                 />
   </url><url>
-    <loc>//localhost:3030/sections/</loc>
+    <loc>http://localhost:3030/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/sections/"
+                href="http://localhost:3030/en/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/sections/"
+                href="http://localhost:3030/sections/"
                 />
   </url><url>
-    <loc>//localhost:3030/authors/william-jacob/</loc>
+    <loc>http://localhost:3030/authors/william-jacob/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:3030/en/authors/william-jacob/"
+                href="http://localhost:3030/en/authors/william-jacob/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="//localhost:3030/authors/william-jacob/"
+                href="http://localhost:3030/authors/william-jacob/"
                 />
   </url>
 </urlset>
