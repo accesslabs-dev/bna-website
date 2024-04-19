@@ -1,0 +1,21 @@
+<footer class="bg-theme-light dark:bg-darkmode-theme-light">
+  <div class="container mx-auto">
+    <div class="flex items-center justify-between py-5">
+      <!-- Left-aligned logo -->
+      <div class="text-center lg:text-left">
+        <a class="navbar-brand inline-block" href="{{ site.Home.RelPermalink }}">
+          {{ partial "logo" }}
+        </a>
+      </div>
+
+      <!-- Right-aligned contact details -->
+      <div class="text-right">
+        <div class="container">{{ .Site.Params.nameCNPJ }}</div>
+        <div class="container">CNPJ: {{ .Site.Params.CNPJ }}</div>
+        <div class="container">{{ .Site.Params.businessAddress }}</div>
+        <div class="container">{{ .Site.Params.businessAddress2 }}</div>
+        <div class="container">Todos os direitos reservados © Solution Serviços e Contatos LTDA 2024</div>
+      </div>
+    </div>
+  </div>
+</footer>

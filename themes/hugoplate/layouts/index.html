@@ -1,0 +1,203 @@
+{{ define "main" }}
+  <!-- Banner -->
+  {{ with .Params.solution }}
+    <section class="section pt-14">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="lg:col-7 md:col-9 mb-8 text-center">
+            <h1 class="mb-4 text-h3 lg:text-h1">
+              {{ .title | markdownify }}
+            </h1>
+            <p class="mb-8">
+              {{ .content | markdownify }}
+            </p>
+            {{ with .button }}
+              {{ if .enable }}
+                <a
+                  class="btn btn-primary"
+                  href="{{ .link | absURL }}"
+                  {{ if strings.HasPrefix .link `http` }}
+                    target="_blank" rel="noopener"
+                  {{ end }}>
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Banner -->
+
+  <!-- Features -->
+  {{ range $i, $e:= .Params.about }}
+    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+      <div class="container">
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+            <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
+              <!-- {{ $image:= .founderimage }} -->
+              {{ if .founderimage }}
+                {{ partial "image" (dict "Src" $image "Alt" .title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+              {{ else if .name }}
+                <img
+                  class="mx-auto mb-6 rounded"
+                  alt="{{ .Title }}"
+                  height="120"
+                  width="120"
+                  src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
+              {{ end }}
+              <h4 class="mb-3">
+                <a href="{{ .RelPermalink }}">{{ .name }}</a>
+              </h4>
+              <div class="mb-8 text-lg">
+                <h5 class="mb-3">
+                  {{ .position }}
+                </h4>
+                <ul>
+                  {{ range .positiondescription }}
+                    <li class="relative mb-3 pl-2">
+                      <i class="left-0 top-0.5"></i>
+                      {{ . | markdownify }}
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} md:col-7 lg:col-6">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+            <p class="mb-8 text-lg">
+              {{ .content | markdownify }}
+            </p>
+            <ul>
+              {{ range .bulletpoints }}
+                <li class="relative mb-4 pl-6">
+                  <i class="fa fa-check absolute left-0 top-1.5"></i>
+                  {{ . | markdownify }}
+                </li>
+              {{ end }}
+            </ul>
+            {{ with .button }}
+              {{ if .enable }}
+                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Features -->
+
+  <!-- Testimonials -->
+  {{ with site.GetPage "sections/testimonial" }}
+    {{ if .Params.enable }}
+      <section class="section bg-gradient">
+        <div class="container">
+          <div class="row">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+              <h2 class="mb-4">
+                {{ .Title | markdownify }}
+              </h2>
+              <p>
+                {{ .Params.description | markdownify }}
+              </p>
+            </div>
+            <div class="col-12">
+              <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                  {{ range .Params.projects }}
+                    <div class="swiper-slide">
+                      <div
+                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-5" style="height: 20rem;">
+                        <blockquote class="mx-auto">
+                          {{ .content | markdownify }}
+                        </blockquote>
+                        <div class="mt-11 flex items-center">
+                          <div class="ml-5">
+                            <h3 class="h5 font-primary font-semibold">
+                              {{ .name }}
+                            </h3>
+                            <p class="text-dark dark:text-white">
+                              {{ .designation | markdownify }}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+                <div
+                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+  <!-- /Testimonials -->
+
+  <!-- Contact-->
+  {{ with .Params.contact }}
+  <section class="contact-section bg-gradient" id="contact">
+    <div class="container px-4 px-lg-5">
+      <h2 class="mb-4 text-center">
+        {{ .description}}
+      </h2>
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt text-dark dark:text-white mb-2"></i>
+                        <h4 class="text-uppercase m-0">{{ .addressname }}</h4>
+                        <hr class="my-4 mx-auto" />
+                        <div class="text-dark dark:text-white">{{ site.Params.address }}<br />{{ site.Params.address2 }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-dark dark:text-white mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4 mx-auto" />
+                        <div class="text-dark dark:text-white"><a href="#!">{{ site.Params.email }}</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-dark dark:text-white mb-2"></i>
+                        <h4 class="text-uppercase m-0">WhatsApp</h4>
+                        <hr class="my-4 mx-auto" />
+                        <div class="text-dark dark:text-white">{{ site.Params.phone }}</div>
+                        <div class="text-dark dark:text-white"><a href="https://wa.me/{{ site.Params.phoneNumber}}">{{
+                                site.Params.phoneNumberSimplified}}</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cal -->
+        <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
+        <div class="zcal-inline-widget"><a href="https://zcal.co/i/ElgxLvWe">Agenda um horário para nos conhecer - Schedule a meeting</a></div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
