@@ -2,358 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3030/solution-full-website/</loc>
+    <loc>http://localhost:1313/bna-website/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/"
+                href="http://localhost:1313/bna-website/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/"
+                href="http://localhost:1313/bna-website/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/application/</loc>
+    <loc>http://localhost:1313/bna-website/categories/application/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bna-website/blog/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/application/"
+                href="http://localhost:1313/bna-website/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/application/"
+                href="http://localhost:1313/bna-website/blog/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/architecture/</loc>
+    <loc>http://localhost:1313/bna-website/categories/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/architecture/"
+                href="http://localhost:1313/bna-website/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/architecture/"
+                href="http://localhost:1313/bna-website/categories/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/blog/</loc>
+    <loc>http://localhost:1313/bna-website/categories/data/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bna-website/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/blog/"
+                href="http://localhost:1313/bna-website/en/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/blog/"
+                href="http://localhost:1313/bna-website/blog/post-1/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/</loc>
+    <loc>http://localhost:1313/bna-website/tags/nextjs/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bna-website/tags/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/"
+                href="http://localhost:1313/bna-website/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/"
+                href="http://localhost:1313/bna-website/tags/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/data/</loc>
+    <loc>http://localhost:1313/bna-website/tags/tailwind/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bna-website/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/data/"
+                href="http://localhost:1313/bna-website/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/data/"
+                href="http://localhost:1313/bna-website/authors/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/blog/post-1/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/blog/post-1/"
+                href="http://localhost:1313/bna-website/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/blog/post-1/"
+                href="http://localhost:1313/bna-website/contact/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/blog/post-2/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/blog/post-2/"
+                href="http://localhost:1313/bna-website/en/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/blog/post-2/"
+                href="http://localhost:1313/bna-website/elements/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/blog/post-3/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/authors/gabriel-pinto/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/blog/post-3/"
+                href="http://localhost:1313/bna-website/en/authors/gabriel-pinto/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/blog/post-3/"
+                href="http://localhost:1313/bna-website/authors/gabriel-pinto/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/blog/post-4/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/blog/post-4/"
+                href="http://localhost:1313/bna-website/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/blog/post-4/"
+                href="http://localhost:1313/bna-website/about/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/nextjs/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/nextjs/"
+                href="http://localhost:1313/bna-website/en/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/nextjs/"
+                href="http://localhost:1313/bna-website/pages/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/silicon/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/silicon/"
+                href="http://localhost:1313/bna-website/en/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/silicon/"
+                href="http://localhost:1313/bna-website/privacy-policy/"
                 />
   </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bna-website/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/software/"
+                href="http://localhost:1313/bna-website/en/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/software/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/software/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/tailwind/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/tailwind/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/tailwind/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/tags/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/tags/technology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/tags/technology/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/categories/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/categories/technology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/categories/technology/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/authors/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/contact/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/elements/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/elements/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/about/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/authors/john-doe/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/authors/john-doe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/authors/john-doe/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/pages/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/pages/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/privacy-policy/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/privacy-policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/privacy-policy/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/authors/sam-wilson/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/authors/sam-wilson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/authors/sam-wilson/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/sections/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/sections/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/sections/"
-                />
-  </url><url>
-    <loc>http://localhost:3030/solution-full-website/authors/william-jacob/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:3030/solution-full-website/en/authors/william-jacob/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://localhost:3030/solution-full-website/authors/william-jacob/"
+                href="http://localhost:1313/bna-website/sections/"
                 />
   </url>
 </urlset>

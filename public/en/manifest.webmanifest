@@ -1,10 +1,10 @@
 {
-  "name": "Solution",
-  "short_name": "Solution",
+  "name": "bna.dev",
+  "short_name": "bna.dev",
   "lang": "en-us",
   "display": "fullscreen",
   "orientation" : "portrait",
-  "start_url": "http://localhost:3030/solution-full-website/?utm_source=web_app_manifest",
+  "start_url": "http://localhost:1313/bna-website/?utm_source=web_app_manifest",
   "background_color": "#fff",
   "theme_color": "#000",
 
@@ -20,33 +20,33 @@
   
   "icons": [
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_48x48_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_48x48_resize_lanczos_3.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_72x72_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_72x72_resize_lanczos_3.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_96x96_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_96x96_resize_lanczos_3.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_144x144_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_144x144_resize_lanczos_3.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_192x192_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_192x192_resize_lanczos_3.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/solution-full-website/images/favicon-solution_huee9f789dde92ca423e5d2d442f397b8b_29153_512x512_resize_lanczos_3.png",
+      "src": "/bna-website/images/favicon_hu8adbb384754b713dee769bf6d6d3a4f9_60620_512x512_resize_lanczos_3.png",
       "sizes": "512x512",
       "type": "image/png"
     }

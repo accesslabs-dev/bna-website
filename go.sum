@@ -44,5 +44,7 @@ github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20240414052440-de
 github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20240414052440-de0e16b3cfb6/go.mod h1:bEDw4veccQQQYEdVrfu13ATRUWfW8ptDIjJZuhYh4Tw=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20240414052440-de0e16b3cfb6 h1:DM5ieESeOtic9uak9qNs2kOXNAWFKtzVm/cYhsJAEOY=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20240414052440-de0e16b3cfb6/go.mod h1:P722lLWdnNhdZVq6gvMrOLqECUwrAYQWaOWlChta5H0=
+github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
+github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/zeon-studio/hugoplate v0.0.0-20240417025955-2f8cd66481e2 h1:Gj7eNQjoRc4jZyBKWLoKuLgPMyprBWHe4MNa+qPi6yc=
 github.com/zeon-studio/hugoplate v0.0.0-20240417025955-2f8cd66481e2/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=

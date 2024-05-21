@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nextjs on Solution</title>
-    <link>http://localhost:3030/solution-full-website/tags/nextjs/</link>
-    <description>Recent content in Nextjs on Solution</description>
+    <title>Nextjs on bna.dev</title>
+    <link>http://localhost:1313/bna-website/tags/nextjs/</link>
+    <description>Recent content in Nextjs on bna.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:3030/solution-full-website/tags/nextjs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/bna-website/tags/nextjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:3030/solution-full-website/blog/post-1/</link>
+      <title>Em breve</title>
+      <link>http://localhost:1313/bna-website/blog/post-1/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:3030/solution-full-website/blog/post-1/</guid>
+      <guid>http://localhost:1313/bna-website/blog/post-1/</guid>
       <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
     </item>
   </channel>
