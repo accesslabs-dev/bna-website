@@ -1,11 +1,11 @@
 <!-- theme switcher -->
 {{ $class := .Class }}
 {{ if site.Params.theme_switcher }}
-  <div class="theme-switcher {{ $class }}">
+  <div class="theme-switcher {{ $class }} ">
     <input id="theme-switcher" data-theme-switcher type="checkbox" />
     <label for="theme-switcher">
       <span class="sr-only">theme switcher</span>
-      <span>
+      <span class="btn-primary">
         <!-- sun -->
         <svg
           class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"

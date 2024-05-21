@@ -1,68 +1,27 @@
 ############# Portuguese navigation ##############
 
 # main menu
-# [[main]]
-# name = "Solution"
-# pageRef = "#solution"
-# weight = 1
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
 
-# [[main]]
-# name = "Sobre Nós"
-# pageRef = "#about"
-# weight = 2
+[[main]]
+name = "Serviços"
+pageRef = "#services"
+weight = 2
 
-# [[main]]
-# name = "Projetos Executados"
-# pageRef = "#projects"
-# weight = 3
+[[main]]
+name = "Sobre Nós"
+pageRef = "#about"
+weight = 3
 
-# [[main]]
-# name = "Contato"
-# pageRef = "#contact"
-# weight = 4
+[[main]]
+name = "Casos de Sucesso"
+pageRef = "#cases"
+weight = 4
 
-# [[main]]
-# weight = 4
-# name = "Pages"
-
-# [[main]]
-# parent = "Pages"
-# name = "Blog"
-# pageRef = "/blog"
-
-# [[main]]
-# parent = "Pages"
-# name = "Contact"
-# pageRef = "/contact"
-
-# [[main]]
-# parent = "Pages"
-# name = "Authors"
-# pageRef = "/authors"
-
-# [[main]]
-# parent = "Pages"
-# name = "Categories"
-# pageRef = "/categories"
-
-# [[main]]
-# parent = "Pages"
-# name = "404 Page"
-# pageRef = "/404"
-
-
-# footer menu
-# [[footer]]
-# name = "About"
-# pageRef = "/about"
-# weight = 1
-
-# [[footer]]
-# name = "Elements"
-# pageRef = "/elements"
-# weight = 2
-
-# [[footer]]
-# name = "Privacy Policy"
-# pageRef = "/privacy-policy"
-# weight = 3
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 5

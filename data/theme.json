@@ -2,38 +2,38 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#123060",
-        "body": "#fff",
-        "border": "#123060",
-        "theme_light": "#f5f9ff",
-        "theme_dark": "#fff"
+        "primary": "#6d32cd",
+        "body": "#f3f3f3",
+        "border": "#dddbff",
+        "theme_light": "#dddbff",
+        "theme_dark": "#4D109E"
       },
       "text_color": {
-        "default": "#123060",
-        "dark": "#123060",
-        "light": "#123060"
+        "default": "#040316",
+        "dark": "#040316",
+        "light": "#040316"
       }
     },
     "darkmode": {
       "theme_color": {
-        "primary": "#fff",
-        "body": "#021030",
-        "border": "#fff",
-        "theme_light": "#081636",
+        "primary": "#6d32cd",
+        "body": "#242222",
+        "border": "#020024",
+        "theme_light": "#141212",
         "theme_dark": ""
       },
       "text_color": {
-        "default": "#E4DFE6",
-        "dark": "#fff",
-        "light": "#fff"
+        "default": "#eae9fc",
+        "dark": "#eae9fc",
+        "light": "#eae9fc"
       }
     }
   },
   "fonts": {
     "font_family": {
-      "primary": "Poppins:wght@400;600",
-      "primary_type": "sans-serif",
-      "secondary": "Poppins:wght@500;700",
+      "primary": "Intel One Mono",
+      "primary_type": "monospace",
+      "secondary": "Signika:wght@500;700",
       "secondary_type": "sans-serif"
     },
     "font_size": {

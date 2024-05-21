@@ -76,7 +76,7 @@ input#nav-toggle:checked ~ #nav-menu {
   }
 
   span {
-    @apply bg-dark absolute -top-1 left-0 flex h-6 w-6 items-center justify-center rounded-full transition-all duration-300 dark:bg-white;
+    @apply text-dark absolute -top-1 left-0 flex h-6 w-6 items-center justify-center rounded-full transition-all duration-300 dark:bg-white;
   }
 
   input:checked + label {

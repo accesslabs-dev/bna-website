@@ -83,14 +83,14 @@
               {{ if findRE `^http` .URL }}
                 target="_blank" rel="noopener"
               {{ end }}
-              href="{{- if findRE `^#` .URL -}}
+              href="{{- if findRE `^#` .PageRef -}}
                 {{- if not $.IsHome -}}
                   {{- site.Home.RelPermalink -}}
-                {{- end }}{{- .URL -}}
+                {{- end }}{{- .PageRef -}}
               {{- else -}}
                 {{- .URL | relLangURL -}}
-              {{- end -}}"
-              >{{ .Name }}</a
+              {{- end -}}">
+              {{ .Name }}</a
             >
           </li>
         {{ end }}

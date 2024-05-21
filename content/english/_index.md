@@ -1,58 +1,50 @@
 ---
 # Banner
-solution:
-  title: "Strategy and Technology, Creating and Digitizing Your Business"
-  content: "Revolutionizing Planning with Digital Technology. We offer services that transform business strategies into operational efficiency. From commercial restructuring to advanced technological solutions, our expertise encompasses the development and optimization of processes. With smart automation and predictive analytics, we prepare your company to lead in the future market."
+banner:
+  title: "Empowering Your Digital Transformation"
+  content: "Unlock the potential of programming, AI, and automation to solve your toughest tech challenges. Avoid rushed hires and budget woes with **bna.dev** – we provide urgent solutions and strategic guidance for long-term success."
   # image: "/images/banner.png"
   button:
-    enable: false
-    label: "Schedule a Time with Us to Learn More!"
-    link: "https://zcal.co/i/ElgxLvWe"
+    enable: true
+    label: "Learn About Our Services"
+    link: "#services"
+    blog_label: "Explore Our Tech Blogs"
+    blog_link: "/blog"
 
-# Features
-about:
-  - title: "Strategy and Operations"
-    image: "/images/service-3.png"
-    name: "Douglas Pinto"
-    founderimage: "/images/founder-1-image.jpeg"
-    position: "Founder"
-    positiondescription:
-      - "Over 30 years of experience in strategy and operations"
-      - "Expert in commercial restructuring and business development"
-      - "Skills in contract negotiation and project management"
-    # content: "Solution boosts your company with the implementation of various data analytics technologies and process automation:"
+# services
+services:
+  - title: "Business Modelling and Intelligence"
+    image: "/images/service-1.png"
     bulletpoints:
-      - Commercial area restructuring (SAC, Call Center, CRM, Distributors, Representatives, Technical Assistance, Stock, Logistics, and Engineering and Measurement Projects);
-      - Planning, drafting, and development of new businesses, focusing on project development, strategic business plan, internal structure focused on administration, budget, and results;
-      - Defining the market approach and selecting potential customers, general sales business conditions (process, project, deadline, payment), including contract negotiation;
-      - Identifying business opportunities and participating in Public Tenders - Competition, Auction, Price Taking, and Invitation Letter, including the management and adjustment of public contracts;
-    button:
-      enable: false
-      label: "Learn more"
-      link: "#"
-
-  - title: "Data Analytics and Robotic Process Automation"
-    image: "/images/service-3.png"
-    name: "Gabriel Pinto"
-    founderimage: "/images/founder-2-image.jpeg"
-    position: "Technology Partner-Director"
-    positiondescription:
-      - "Graduated in mechatronics engineering at Poli-USP"
-      - "Significant roles at Uber, Rappi, and CloudKitchens in data analytics, strategy, and software engineering"
-    content: "Solution boosts your company with the implementation of various technologies of data analytics and process automation:"
+      - "**Business Modeling:** Break down your goals, define OKRs, KPIs, and benchmarks, and perform market and competitor analysis to keep your business on track"
+      - "**Business Intelligence:** Create dashboards and tools for strategic and operational decision-making. Turn raw data into actionable insights and stay competitive with our BI solutions."
+  - title: "Process Automation & Data Science"
+    image: "/images/service-2.png"
     bulletpoints:
-      - "**Automation of data pipelines, operational processes** (sales, onboarding, payments, and other areas) and use of **artificial intelligence** for chatbots"
-      - "**Creation of web-crawlers** for data monitoring"
-      - "Use of **machine learning to predict customer trends**, such as: churn probability and conversion, prioritization and clustering of leads and customer base"
-      - "**Assistance in decision making** through analyses of your business"
-      - "**Creation of dashboards** to increase visibility of your most important metrics and KPIs"
-      - "**Implementation and product planning** for building MVPs"
-    button:
-      enable: false
-      label: "Saiba Mais"
-      link: "#"
+      - "**Robotic Process Automation (RPA):** Implement web crawlers and scrapers, automate data pipelines, and get help with tasks using AI (NQL, Sales/CS Assistants). Streamline operations and boost efficiency with advanced automation."
+      - "**Data Science:** Enhance your business with customer segmentation, sales probability modeling, churn prediction, and lead prioritization. Make data-driven decisions to drive growth."
+  - title: "Product Planning & Development"
+    image: "/images/service-3.png"
+    bulletpoints:
+      - "**Product Planning:** Plan and strategize effectively for product launches and long-term success. Ensure your product aligns with market needs and business goals."
+      - "**Product Development:** From defining requirements to developing MVPs, we guide you through every step of product development. Bring innovative products to market with confidence."
 
-contact:
-  description: "Contact Us"
-  addressname: "Address"
+# founders
+founders:
+  header: "Meet Our Co-Founders"
+  subheader: "The team driving bna.dev's innovative solutions."
+  name: "Gabriel Pinto"
+  founderimage: "/images/founder-2-image.jpeg"
+  position: "Co-Founder"
+  positiondescription:
+    - "Graduated in mechatronics engineering at Poli-USP"
+    - "Significant roles at Uber, Rappi, and CloudKitchens in data analytics, strategy, and software engineering"
+    - "Expertise in the applications of LLM, RPA, and Product Management"
+  name2: "Pedro Lupion"
+  founderimage2: "/images/founder-1-image.jpeg"
+  position2: "Co-Founder"
+  positiondescription2:
+    - "Mechanical Engineer graduated from UNICAMP / KTH"
+    - "Previous experiences at Kraft Heinz, Uber, co-founder of OnCar and ESM Rental"
+    - "Expertise in Product Management, Data Science, Data Analysis, and Financial Planning & Analysis (FP&A)"
 ---

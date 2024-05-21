@@ -1,4 +1,3 @@
 ---
 title: "Authors"
-enable: true
 ---

@@ -1,6 +1,6 @@
 {{ define "main" }}
   <!-- Banner -->
-  {{ with .Params.solution }}
+  {{ with .Params.banner }}
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
@@ -11,6 +11,7 @@
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
+            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0" style="display:contents">
             {{ with .button }}
               {{ if .enable }}
                 <a
@@ -20,10 +21,13 @@
                     target="_blank" rel="noopener"
                   {{ end }}>
                   {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+                <a href="{{ .blog_link | absURL }}" class="btn btn-outline-primary">
+                  {{ .blog_label }}
                 </a>
               {{ end }}
             {{ end }}
+            </div>
           </div>
         </div>
       </div>
@@ -31,44 +35,16 @@
   {{ end }}
   <!-- /Banner -->
 
-  <!-- Features -->
-  {{ range $i, $e:= .Params.about }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+  <!-- Services -->
+  {{ range $i, $e:= .Params.services }}
+    <section id="services" class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
         <div class="row items-center justify-between">
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
-              <!-- {{ $image:= .founderimage }} -->
-              {{ if .founderimage }}
-                {{ partial "image" (dict "Src" $image "Alt" .title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
-              {{ else if .name }}
-                <img
-                  class="mx-auto mb-6 rounded"
-                  alt="{{ .Title }}"
-                  height="120"
-                  width="120"
-                  src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
-              {{ end }}
-              <h4 class="mb-3">
-                <a href="{{ .RelPermalink }}">{{ .name }}</a>
-              </h4>
-              <div class="mb-8 text-lg">
-                <h5 class="mb-3">
-                  {{ .position }}
-                </h4>
-                <ul>
-                  {{ range .positiondescription }}
-                    <li class="relative mb-3 pl-2">
-                      <i class="left-0 top-0.5"></i>
-                      {{ . | markdownify }}
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
-            </div>
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
@@ -101,12 +77,97 @@
       </div>
     </section>
   {{ end }}
-  <!-- /Features -->
+  <!-- /Services -->
 
-  <!-- Testimonials -->
+  <!-- Founders -->
+  {{ with .Params.founders }}
+    <section id="about" class="section-sm bg-gradient">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="lg:col-7 md:col-9 mb-8 text-center">
+            <h2 class="mb-4 text-h3 lg:text-h1">
+              {{.header}}
+            </h2>
+            <p class="mb-8">
+              {{.subheader}}
+            </p>
+          </div>
+        </div>
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0 md:order-2 md:col-5 mb-6">
+            <div class="founder bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
+              {{ $image:= .founderimage }}
+              {{ if .founderimage }}
+                {{ partial "image" (dict "Src" $image "Alt" .title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+              {{ else if .name }}
+                <img
+                  class="mx-auto mb-6 rounded"
+                  alt="{{ .Title }}"
+                  height="120"
+                  width="120"
+                />
+              {{ end }}
+              <h4 class="mb-3">
+                <a href="{{ .RelPermalink }}">{{ .name }}</a>
+              </h4>
+              <div class="mb-8 text-lg">
+                <h5 class="mb-3">
+                  {{ .position }}
+                </h4>
+                <ul>
+                  {{ range .positiondescription }}
+                    <li class="relative mb-3 pl-2">
+                      <i class="left-0 top-0.5"></i>
+                      {{ . | markdownify }}
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mb:md-0 md:order-2 md:col-5 mb-6">
+            <div class="founder bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
+              {{ $image:= .founderimage2 }}
+              {{ if .founderimage2 }}
+                {{ partial "image" (dict "Src" $image "Alt" .title2 "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+              {{ else if .name2 }}
+                <img
+                  class="mx-auto mb-6 rounded"
+                  alt="{{ .Title2 }}"
+                  height="120"
+                  width="120"
+                />
+              {{ end }}
+              <h4 class="mb-3">
+                <a href="{{ .RelPermalink }}">{{ .name2 }}</a>
+              </h4>
+              <div class="mb-8 text-lg">
+                <h5 class="mb-3">
+                  {{ .position2 }}
+                </h4>
+                <ul>
+                  {{ range .positiondescription2 }}
+                    <li class="relative mb-3 pl-2">
+                      <i class="left-0 top-0.5"></i>
+                      {{ . | markdownify }}
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Founders -->
+
+  <!-- Cases -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section bg-gradient">
+      <section id="cases" class="section">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -120,15 +181,30 @@
             <div class="col-12">
               <div class="swiper testimonial-slider">
                 <div class="swiper-wrapper">
-                  {{ range .Params.projects }}
+                  {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-5" style="height: 20rem;">
-                        <blockquote class="mx-auto">
+                        class="testimonial bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        <div class="text-dark dark:text-white">
+                          <svg
+                            width="33"
+                            height="20"
+                            viewBox="0 0 33 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
+                              fill="currentColor" />
+                          </svg>
+                        </div>
+                        <blockquote class="mt-8">
                           {{ .content | markdownify }}
                         </blockquote>
                         <div class="mt-11 flex items-center">
-                          <div class="ml-5">
+                          <div class="text-dark dark:text-white">
+                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Alt" .name) }}
+                          </div>
+                          <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
                             </h3>
@@ -150,54 +226,5 @@
       </section>
     {{ end }}
   {{ end }}
-  <!-- /Testimonials -->
-
-  <!-- Contact-->
-  {{ with .Params.contact }}
-  <section class="contact-section bg-gradient" id="contact">
-    <div class="container px-4 px-lg-5">
-      <h2 class="mb-4 text-center">
-        {{ .description}}
-      </h2>
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-map-marked-alt text-dark dark:text-white mb-2"></i>
-                        <h4 class="text-uppercase m-0">{{ .addressname }}</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="text-dark dark:text-white">{{ site.Params.address }}<br />{{ site.Params.address2 }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-envelope text-dark dark:text-white mb-2"></i>
-                        <h4 class="text-uppercase m-0">Email</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="text-dark dark:text-white"><a href="#!">{{ site.Params.email }}</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card bg-theme-light dark:bg-darkmode-theme-light py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-mobile-alt text-dark dark:text-white mb-2"></i>
-                        <h4 class="text-uppercase m-0">WhatsApp</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="text-dark dark:text-white">{{ site.Params.phone }}</div>
-                        <div class="text-dark dark:text-white"><a href="https://wa.me/{{ site.Params.phoneNumber}}">{{
-                                site.Params.phoneNumberSimplified}}</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- cal -->
-        <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js"></script>
-        <div class="zcal-inline-widget"><a href="https://zcal.co/i/ElgxLvWe">Agenda um horário para nos conhecer - Schedule a meeting</a></div>
-    </div>
-  </section>
-  {{ end }}
+  <!-- /Cases -->
 {{ end }}

@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "How to build a chatGPT yourself"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-author: "John Doe"
-tags: ["nextjs", "tailwind"]
+categories: ["LLM"]
+author: "Gabriel Pinto"
+tags: ["LLM"]
 draft: false
 ---
 
