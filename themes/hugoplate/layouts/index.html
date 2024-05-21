@@ -11,7 +11,7 @@
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
-            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0" style="display:contents">
+            <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0" style="display:flex; gap:1rem;">
             {{ with .button }}
               {{ if .enable }}
                 <a

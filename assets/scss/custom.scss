@@ -60,11 +60,27 @@
   }
 
   .founder {
-    height: 52rem;
+    min-height: 55rem;
+  }
+
+  .testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
   }
 
   .testimonial {
-    height: 27rem;
+    border-radius: 12px;
+    padding: 1.5rem;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 30rem; /* Adjust this as needed */
+  }
+
+  .testimonial blockquote {
+    flex-grow: 1;
   }
 
   .nav-link {
