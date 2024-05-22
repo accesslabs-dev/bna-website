@@ -7,219 +7,236 @@ date: 2024-05-21T05:00:00Z
 # image: "/images/image-placeholder.png"
 categories: ["LLM"]
 author: "Gabriel Pinto"
-tags: ["Easy"]
+tags: ["Fácil"]
 draft: false
 ---
 
-In this post we are going to discuss the multitude of LLMs with brief explanations on how they work and how you can find one that fits your main needs.
+Neste artigo vamos discutir LLMs, o que são, onde vivem? Nessa sexta, na bna.dev.
 
-## AI or LLM? Understanding the difference
+O objetivo aqui é mostrar como funcionam e como você pode escolher a ideal para as suas necessidades.
 
-Simplifying as much as I can:
+## AI ou LLM? Entendendo as diferenças
 
-- AI = broader concept. Exists for decades and it's in our lives for a while, like: Alexa / Siri, Instagram recommending stuff you said 5 minutes ago, Google Translator, [Boston Dynamics building robots](https://www.youtube.com/watch?v=Rdm2ggtFvmQ) since the 90's and to end this endless list [predicting cancer in 2015 - yes, 9 years ago, maybe I'm bald now - by using machine learning to analyze photos](https://www.sciencedirect.com/science/article/pii/S2001037014000464)
-- LLM = a _reaaaally small portion of AI_. It's using one method of AI to complete one single task: **predicting words based on a provided context** :smile:.
+Simplificando bastante:
 
-Text to speech (vice-versa), image generation are not LLMs either. Just more pieces of AI.
+- AI = conceito amplo. Existe há algumas decadas e está no nosso cotidiano já faz um tempinho, por exemplo: Alexa / Siri, Instagram te recomendando coisas que você acabou de falar com alguém, Google Translator, [robôs PICAS da Boston Dynamics](https://www.youtube.com/watch?v=Rdm2ggtFvmQ) desde os anos 90 e, para finalizar, [técnicas de predição de câncer por fotos em 2015 - sim, 2015 foram 9 anos atrás, eu nem era calvo](https://www.sciencedirect.com/science/article/pii/S2001037014000464).
+- LLM = _uma pequenina porção de AI_. É o uso de um dos tipos de AI para completar uma única função: **prever palavras baseadas um contexto dado** :smile:.
 
-If you are interested in how those other AI methods work, let us know!
+Modelos _text-to-speech_ ou _image generation_ não são LLMs. Só mais alguns dos pedaços de AI.
 
-## How LLMs Work?
+Se você tem interesse nesses outros tipos de modelos, me avise!
 
-Before going deeper on how they work, just a cool curiosity:
+## Como LLMs funcionam?
 
-What if I told you that the mathematical and statistical foundations of LLMs exist for decades?
+Antes que explicar, só uma curiosidade:
 
-> They do.
-> LLMs rely on Markov chains, Bayesian inference and neural networks. All of them are there for years.
-> What really made a difference those past few years was having GPUs and TPUs. Those enabled the ability to train a LLM with massive datasets and, equally important, computing your response in near real-time!
+E se eu te disser que toda a fundação matemática e estatística de LLMs existe por décadas?
 
-Also, this enabled more complex math and statistical operations and developments too!
+> Sim, é verdade.
+> LLMs são baseados em cadeias de Markov, inferência Bayesiana e redes neurais. Todas existem há anos.
+> O que realmente mudou recentemente foram as GPUs e TPUs. Elas que possibilitaram a habilidade de treinar um LLMs com _dataset_ ENORMES e, igualmente importante, de computar as suas respostas em _real-time_ basicamente!
 
-But now, LLM 101:
+Claro, elas também facilitaram um monte de operações e desenvolvimentos matemáticos mais complexos!
 
-1. Get MASSIVE datasets (I see you Reddit selling data for everyone);
-2. Get all the calculations in place, that means: how a computer will breakdown the texts of the dataset - tokens, how tokens will be transformed into vectors and matrices full of numbers and how the probabibility of token x given context y;
-3. Train the massive dataset. Now you know the probability of each token x given context y;
+Mas agora, vamos lá, LLM 101:
 
-Now you participate!
+1. **_datasets_ IMENSOS** (to de olho em você Reddit vendendo a gente por aí);
+2. **Cálculos**: Como um computador vai quebrar os textos do _dataset_ - _tokens_, como esses _tokens_ serão transformados em vetores e matrizes cheios de números e como a probabilidade de _token_ x dado um contexto y será calculada;
+3. **Treinamento do modelo**: Agora você tem todas as probabilidades de _token_ x dado um contexto y;
 
-4. You will open chatGPT and input a question;
-5. All the calculations will take place. First of all, Open(not so open)AI will break your question into tokens --> this is called **tokenization**;
-6. Afterwards, **embedding** will happen which is transforming those tokens into the vectors and matrices. Your question will start to looking like this:
+Agora é onde você entra no processo!
+
+4. **Seu _input_**: Você abre o chatGPT e faz uma pergunta;
+5. **Tokenização**: Todos os cálculos vão começar. No primeiro, a Open(não tão _open_ assim)AI vai quebrar sua questão em _tokens_;
+6. **Embedding** (não vou tentar traduzir kk): Transformar esses _tokens_ nas matrizes e vetores. A sua pergunta vai virar isso aqui:
    ![embedding](/images/embedding.png)
-   _[from really cool video to explain how LLM works](https://www.youtube.com/watch?v=wjZofJX0v4M)_
-7. And then the actual inference or "probability of token x given your question y" is calculated. Basically your embedded matrix will be multiplied by a terribly large matrix that represents the trained model and will have the n closest tokens to your question;
-8. Redo it until you have an answer;
-9. Unembed the response, cause I hope no one here has become an AI and now is reading vectors on the street.
+   _[um vídeo bem daora sobre como LLMs funcionam](https://www.youtube.com/watch?v=wjZofJX0v4M)_
+7. **Inferência**: Cálculo da probabilidade de _token_ x dado um contexto y. Basicamente a sua matriz "embeddada" vai ser multiplicada por uma outra matriz terrivelmente grande que representa o modelo treinado e assim, você os n _tokens_ que são mais próximos as suas perguntas;
+8. Refazer o processo para n _tokens_ até ter toda a sua resposta;
+9. **Unembedding**: Transformar os _tokens_ em palavras até porque eu gostaria de acreditar que ninguém aqui divergiu e agora tá lendo vetores na rua por aí.
 
-## What I should look for a LLM?
+## O que procurar em um LMM?
 
-Well done, now you know how LLMs work!
+Parabéns, agora você sabe (maomenos) como um LLM funciona!
 
-However, you couldn't give a smaller crap for it. You just wanna use and it's totally fair.
+No entanto, tu simplesmente tá cagando e andando pra isso. Só quer usar o coiso e AI e acabou, pô. Completamente justo.
 
-Everything from now on is focused on maximizing how you use LLMs in your day-to-day activities at work or at home.
+Tudo que eu vou te explicar aqui para frente vai te ajudar bastante, porque vou focar em como você maximiza quais LLMs usar no seu dia-a-dia.
 
-I really do believe there are a large amount of people that:
+Eu realmente acredito que duas coisas acontecem com muitas pessoas:
 
-1. Are having difficulties with LLM costs;
+1. Tá achando LLM meio caro dependendo do seu uso;
 
-or
+ou
 
-2. Could actually use better suited LLMs for their uses.
+2. Poderia usar LLMs mais indicadas para o seu _use-case_.
 
-### LLM Features
+### Características de um LLM
 
-Let's start by the main features different LLMs might have.
+Vamos começar diferenciando as diferentes características que LLMs têm.
 
-A great tip to compare different LLMs is [artificialanalysis.ai](https://artificialanalysis.ai/). Most of the LLM and LLM providers features that I will explain in this article are represented and compared in this AMAZING website.
+Um bom conselho é o [artificialanalysis.ai](https://artificialanalysis.ai/). A grande maioria de LLM e seus provedores são colocados em comparação nesse site e fica MUITO fácil ver as diferenças.
 
-#### Quality
+#### Qualidade
 
-It means how well the LLM answers you. Currently there are several different methods to measure the LLM quality and each of them opmitize by a certain area.
+Significa o quão bem o LLM te responde. Atualmente há vários métodos para pontuar LLMs nesse aspecto e cada um ta dará uma perspectiva diferente em quão boa a resposta é.
 
-For example:
+Exemplos:
 
-1. MMLU -> evaluate the performance of multilingual models. So how it can answer several questions about several areas of knowledge.
-2. MT-Bench -> it evaluates on a multi-turn question based. So it measures best if the LLM can follow instructions
-3. HumanEval -> this one is much more focused on generating code!
+1. MMLU -> avalia a performance de models multi-linguísticos. Quer dizer: o quão bem ele responde diferentes tipo de conhecimento. Detalhe: é medido somente perguntas e respostas; e é aquele que colocam o LLM para fazer ENEM e ver o quão bem ele vai.
+2. MT-bench -> ao invés de perguntas e respostas, é baseado em turnos (cadeia de perguntas e respostas). Desta forma, o quão bem LLM segue instruções é medido.
+3. HumanEval -> esse já é muito mais focado em como a LLM gera códigos!
 
-.. and a lot more methods.
+... e tem muitos outros métodos.
 
-From artificialanalysis.ai we can see that Claude 3 Opus, Gemini 1.5 Pro and LLama 3 (70B) can provide a comparable quality to GPT-4 Turbo.
+Um exercício rápido:
 
-I'll probably have to create an article only for GPT-4o haha!
+A partir do artificialanalysis.ai, conseguimos ver que Claude 3 Opus, Gemini 1.5 Pro e LLama 3 (70B) conseguem entregar uma qualidade parecida com o GPT-4 Turbo - provalvelmente vai sair um artigo só para o GPT-4o.
 
 ![models_quality](/images/models_quality.png)
-_main LLMs quality comparison_
+_comparação da qualidade de LLMs_
 
-But you can also check that the MMLU score is much much tied between the best LLM.
-
-That means: if you are only using for generic tasks (no code generation), you would probably be good with ANY of them.
+Mas ao mesmo tempo, você consegue ver que a note no MMLU é praticamente um empate.
 
 ![models_quality](/images/models_mmlu.png)
 _main LLMs MMLU score comparison_
 
-#### Speed
+Ou seja: se você só está usando LLM para _tasks_ mais genéricas (sem muito código ou instruções), você provavelmente nem sentiria diferença usando todos esses modelos.
 
-It was cooler to debate 2 weeks ago when GPT-4o didn't exist. But speed is a big component when you are choosing a LLM to use.
+#### Velocidade
 
-How many times you were like: bro, GPT just answer me, pls! Refreshing tabs and then seeing that you'll have to redo the prompt.
+Entenda velocidade como: quantos _tokens_/palavras o LLM consegue mandar por segundo.
 
-Also, for a large infrastructure and assistants towards clients, you'll always prefer something with the capability of answering faster.
+Era mais legal debater velocidade duas semanas atrás quando o GPT-4o não existia. Mas velocidade ainda é um componente chave para escolher um LLM.
 
-A cool exercise is looking at this comparison and seeing:
+Quantas vezes você já esteve tipo: "mano, chatGPT só me responde, por favor!" E aí você caiu em atualizar a "tab" só para ver que você perdeu tudo e vai ter refazer o prompt inteiro.
 
-1. HOW FLIPPING FAST IS GPT-4o compared to all models with high quality scores;
-2. HOW EVEN MORE FLIPPING FAST are smaller models like Gemini 1.5 Flash and Llama 3 (8B).
+Mas também é super importante para grandes infraestruturas que dependem de LLMs para atender clientes. É claro que você preferirá um modelo com uma capacidade de resposta mais rápida.
+
+Um exercício legal é esta comparação aqui:
+
+1. O quão INSANAMENTE mais rápido o GPT-4o é comparado aos modelos mais precisos;
+2. O quanto mais INSANAMENTE mais rápidos são os modelos menores como 1.5 Flash e Llama 3 (8B).
    ![models_quality](/images/models_speed.png)
-   _main LLMs MMLU score comparison_
+   _comparação de velocidade entre LLMs_
 
-So once again, there's a huge opportunity if your tasks are fairly simple. You could use one of those smaller models that will answer much faster and you will be just fine.
+Então aqui de novo temos uma oportunidade legal de usar modelos menores que são muito mais rápidos para _use-cases_ mais simples se é o seu caso.
 
-#### Source (open or closed)
+#### Código aberto ou fechado.
 
-Before a table of pros and cons. Just a context on open and closed models.
+Antes de uma tabela de pros e contras. Só um rápido contexto.
 
-Closed models -> one created a LLM and is hiding what's the training data and how the model works for themselves. Example: ClosedAI GPT4 or Anthropic models
-Open models -> one created and shared with the community. Example: LLama models (Zuck :heart:) and some Mistral models (:fr: :heart: - chatGPT of Mistral is literally LeChat).
+Modelos de código fechado -> alguém criou um modelo e está guardando só para eles como o modelo funciona. Exemplos: GPT4 da ClosedAI e modelos da Anthropic.
+Modelos de código aberto -> alguém criou um modelo e deixou disponível na internet para ver ou mudar como funciona. Exemplos: modelos Llama da Meta (Zuck :heart:) e alguns modelos da Mistral (:fr: :heart: - o chatGPT da Mistral é literalmente LeChat).
 
-For this one, a simple table should do the trick.
+Tabela prometida:
 
-| Areas           | Pros and Cons                                                                                                                                                                                                                                                                           |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cost            | You can deploy open models in your own infrastructure. It is only cheaper if you can setup and maintain it well. But at the same time there are a lot of API providers for open models.                                                                                                 |
-| Speed           | This one is trickier and I think will be clear when I talk about API providers in the following section. But I will say open models have a small lead here.                                                                                                                             |
-| Innovation      | There's an entire community (search for hugging face) doing lots of stuff. Here there's an opportunity of being able to find models re-trained by someone in the world that will perform perfectly for your use-case. Also: uncensored models :laughing: use it in your own discretion. |
-| Support         | Here it is good to rely in the good old capitalism. You pay, you get nice support!                                                                                                                                                                                                      |
-| Customization   | In open models you can re-train the entire model as you wish! In closed ones you are limited to RAGs and fine-tunings.                                                                                                                                                                  |
-| Social Wellfare | We need open LLMs!                                                                                                                                                                                                                                                                      |
+| Áreas            | Pros e contras                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Custo            | Você pode _deployar_ modelos abertos na sua própria infraestrutura. Caso você saiba configurar e manter bem a sua infra, pode fazer sentido. Ao mesmo tempo, tem muitos provedores que estão competitindo hoje para te prover com modelos abertos em um preço amigável.                                                                                         |
+| Velocidade       | Esse aqui é mais complicado e acho que ficará mais claro quando eu entrar nos provedores de API. Mas eu digo que a competição tem sido benéfica e principalmente com o Llama 3 creio que modelos abertos hoje têm uma pequena vantagem, mesmo com o GPT-4o.                                                                                                     |
+| Inovação         | Existe uma comunidade inteira (pesquise sobre hugging face) que estão fazendo muuuitas coisas. Existe uma boa oprtunidade de você conseguir encontrar um modelo treinado por alguém que funcionará perfeitamente para o seu use case. Você pode encontrar também modelos sem censura :laughing: use-os a seu próprio critério.                                  |
+| Suporte          | Aqui o bom e velho capitalismo funciona bem. Você paga modelos fechados, você terá um bom suporte!                                                                                                                                                                                                                                                              |
+| Customização     | Você pode treinar modelos abertos da maneira que quiser. Os fechados são mais limitados nesse aspecto.                                                                                                                                                                                                                                                          |
+| Segurança        | Aqui temos dois lados: um é a ter a confiança que o LLM não vai responder coisas que não deveria - aqui modelos fechados ganham; outro é que o que os seus usuários respondem estão seguramente guardados - aqui funciona igual aos custos, se você tem uma ótima segurança de dados modelos abertos funcionarão melhor, já que voc6e terá controle sobre tudo. |
+| Bem-estar social | Precisamos de modelos abertos!                                                                                                                                                                                                                                                                                                                                  |
 
-Yes, I'm probably biased.
+Sim, provalmente sou enviesado.
 
-### LLM Providers Features
+### Features de Provedores de LLMs
 
-In my opinion this section is the most important one in the entire post. By far.
+Em minha singela opnião, está é seção mais importante de todo o artigo. De longe.
 
-Most of us, me of a few months ago included, don't realise that OpenAI, Meta, Mistral, Anthropic, Google and others are mostly LLM developers. Only a part of their responsibility is to create a proper UI and API for you to use it.
+A maioria de nós, eu de alguns meses atrás incluso, não percebemos que OpenAI, Mistral, Anthropic, Google, Meta e outros são desenvolvedores de LLM. Somente uma parte de suas responsabilidades é criar uma UI e API para nós usarmos.
 
-With open models, there is the possibility of several companies to work on how they can deploy LLMs in the most efficient manner so you can have the lowest price and fastest speed possible.
+Com modelos abertos, existem uma possibilidade de haver distintas empresas focadas somente em como deployar LLMs da maneira mais eficiente possível para que nós possamos ter os preços mais baratos e as velocidades mais rápidas.
 
-The nicest example is groq. They are a hardware startup that are developing a specific design for GPUs chips to run LMMs. With that, they can outspeed all competitors by 2x minimum and have in theory more affordable prices per token.
+O exemplo mais legal é o groq. É uma startup de _hardware_ que estão desenvolvendo um design específico de computação chamado LPU (Language Processing Unit™) para rodar LLMs. Desta maneira, eles conseguem ultrapassar a velocidade de todos os outros competidores por 2x no mínimo e, em tese, em preços mais camaradas.
 
-> Tip: Sign up to [groq](https://console.groq.com), use their playground. You can run a chatGPT-esque conversation with the top open models for free because besides being the faster, they're are probably burning cash to win the competition.
+> Entrem em [groq](https://groq.com/) e testem. Você vai rodar um chatGPT que roda INSTANTANEAMENTE. Se quiser também, você consegue entrar no groqCloud, usar a API deles de graça e com _rate limits_ bem honestos. Provavelmente tão _burning cash_ agora.
 
-#### UI Features
+#### Features de uma UI
 
-If you are not a developer and only uses LLM for your personal use, I'd just stick for this section and maybe the Price/Speed ones.
+Se você não é desenvolvedor e usa LLM somente para uso pessoal, essa é a seção importante e talvez as de preço e velocidade.
 
-I personally think that OpenAI has no competition in this section. Especially with all the buzz of GPT-4o and there's no provider that could match the OpenAI chat / playground.
+Aqui pessoalmente eu acho que a OpenAI não tem competidores. Especialmente com o GPT-4o, agora simplesmente não tem ninguém no mercado que consegue disponibilizar as mesmas _features_ do chatGPT / playground.
 
-There is the chat itself, you can generate images in the same chat, download documents for it to search, it can search the internet, run code, GPT store and now all the 4o things. It's simply unfair.
+É um só chat e ele pode além de gerar textos: gerar/ler imagens, ler documentos, ler sites, rodar códigos, tem a GPT store e agora ele também conversa com você no celular. É insano.
 
-Meta has no playground for Llama, Gemini is well Gemini.. and all the other providers of open models don't reach OpenAI levels.
+A Meta não tem nenhum playground para o Llama, o Gemini da Google.. bom, é o Gemini da Google. Você já usou o Gemini? Ah, foi o que eu pensei! E todos os outros provedores.. nenhum chega aos pés do chatGPT.
 
-What I'll say though is that if you only use chatGPT for text gen, give a try on **groq**. At least, you'll be shocked with the speed.
+Que fique claro: não em como o LLM te responde, mas sim em _features_ que a UI te proporciona. É por isso que eu digo, se você tá usando só para gerar textos, texta o groq. No mínimo, você vai abrir o site, fazer uma pergunta, ficar: "Eita rapaz! Que rápido" e nunca mais usar.
 
-I'm personally only using chatGPT when things get really hard and basically I want to cut corners on giving him some context with documents (but there'll an article soon about how I'm fixing this to be 100% independent from GPT).
+Eu pessoalmente uso groq para 95% das minhas tarefas e chatGPT para quando o bagulho fica treta. Quando por exemplo eu preciso que leia algum documento rápido ou gere alguma imagem. Mas em breve, espero que eu consiga aumentar isso para 100% quando eu terminar o gaboGPT ou bna.devGPT (vai ter um artigo sobre isso).
 
-#### API Features
+#### Features de uma API
 
-Now it's dev stuff. If you know how to code, that's the section.
+Agora é papo de dev ou pelo menos para quem trabalha ou depende de devs.
 
-And in here, I do think OpenAI doesn't have the edge anymore. For developers, using API x or y is simplying a lot, just some lines and an API key.
+Aqui eu acho que a OpenAI já não tem tanta vantagem. Para desenvolvedores, usar a API x ou y é, simplificando muito, só algumas linhas e uma API key.
 
-The only point of attention would be if you need to do a RAG (retrieval augmented generation - when chatGPT searches a document) or a fine-tuning - I won't even get to re-training a model, that's another level.
+Alguns pontos de atenção é se você precisa fazer um RAG (retrieval augmented generation - que é quando o chatGPT lê seus documentos) ou _fine-tuning_ - nem vou entrar em re-treinar um modelo, fica para outra hora.
 
-Some providers make RAG and fine-tuning simple. Some others will make it a little complex. Especially RAG once it is required much more frequently than a fine-tuning.
+Vão ter alguns provedores que deixar RAG e _fine-tuning_ mais simples, com uma UI ao invés de só conseguir pela API ou CLI (para leigos, lê-se: fazer coisas no terminal do seu PC). Especialmente o RAG pode ser uma dor cabeça, porque é algo muito mais frequente, o _fine-tuning_ normalmente você só o faz uma vez.
 
-But even with the RAG problem, there already companies like ragapi.com or libraries such as langchain or llama index that make RAG simpler. That's also a whole entire post on how to build a RAG from scratch.
+Mas mesmo com esse problema, já tem tantas empresas como a ragapi.com ou bibliotecas como langchan e llama index que facilitam RAG e outras operações que deixar isso bem mais simples. Vai ter um outro artigo somente sobre como construir RAG e fazer _fine-tuning_ do zero.
 
-I mean, once again, some more lines of code.
+E assim, o problema para devs vira um pouco do mesmo: só algums linhas de código. Em alguns provedores um pouco menos, em outros, um pouco mais.
 
 #### Price
 
+Agravando ainda mais o _case_ da OpenAI não ter tanta vantagem para API tem um ponto que eu ainda não discuti aqui: PREÇO.
+
+Só quis discutir nesta seção, porque você só vai olhar com muito cuidado isso se você está vendendo algo que usa LLM. Se você só usa o chatGPT, você não ter tanta preocupação.
+
 Aggravating even more the OpenAI case on not having the edge for API services there's one point I haven't discussed here: PRICE.
 
-With the quality and speed comparisons we did earlier + competition on who is the best API LLM provider, prices for open models are CHEAP. The disadvantage for closed models lies in the lack of competition once only them can provide their own models.
+A partir da comparação de qualidade e velocidade que fizemos antes + a competição quem é que o melhor provedor de LLM, os preços para modelos abertos são BEM menores. A desvantagem de modelos fechados é que não há competição uma vez que eles são os únicos provedores de seus próprios modelos.
 
-Once again, using artificialanalysis.ai I'll show an example in the price gap between similar or same models being provided by different companies.
+Usando o artificialanalysis.ai, vou mostrar um exemplo da diferença de preços entre modelos com qualidades similares com diferente provedores.
 
-Example: Llama 3 (70B) and it'll be clear it's importance for the LLM market.
+Exemplo: Llama 8 (70B) e vai ficar claro também, a importância desse modelo para o mercado.
 
-Remember that the Llama model was scored at 88, GPT4 at 94, Claude 3 Opus at 74 too and Gemini, 88.
+Lembrete: Llama 8 (70B) teve pontuação de qualidade 88, GPT4 teve 94, Claude 3 Opus teve 74 too e Gemini, 88.
 
-Price-wise, **Llama is 33x times cheaper than Claude and 16x than GPT-4.**
+Em preço, Llama é 33x mais barato que **Claude e 16x mais barato que GPT-4**. Só para colocar em perpectiva, o preço para se revisar esse mesmo artigo em cada modelo seria:
+
+- Claude: USD 0,12
+
+- GPT-4: USD 0,06
+
+- Llama-3: USD 0,004
+
+Esse é o preço médio. Se você usar groq ou deepinfra com Llama 3, o valor cai de USD 0,9 / 1M tokens para USD 0,6 (50x mais barato que Claude).
 
 ![models_quality](/images/models_price.png)
-_price comparison of LLM models_
+_comparação de preços_
 
-#### Speed
+#### Velocidade
 
-It doesn't stop there. Remember groq?
+Ainda não acabamos, mas citando groq novamente.
 
-Comparing all LLama 3 (70B) providers, it's 2x faster than the second one and 15x than the last one (but obviously Microsoft doesn't want to run Meta's model fast)
+Comparando todos os provedores de Llama 3 (70B), é 2x mais rápido que o segundo provedor e 15x que o último (claro que a Microsoft não vai rodar um modelo da Meta muito rápido).
 
 ![models_quality](/images/models_throughput.png)
-_token throughput comparison of LLM models_
+_comparação de velocidade entre provedores de Llama 3_
 
-Even comparing with GPT4o that is only provided by OpenAI. **3x faster!**
+Até comparando com o GPT4o que é vendido como o mais rápido e que só tem a OpenAI como provedor. **3x mais rápido!**
 
 ![models_quality](/images/gpt_speed.png)
-_token throughput of GPT4o_
+_velocidade GPT4o_
 
-## Conclusion
+## Conclusão
 
-Now it's easy.
+Para encerrar:
 
-- AI is not LLM
-- You know how LLM works
-- OpenAI UI is ridiculous
-- If you don't code, try using some other models or providers for fun
-- If you code, you should definitely be looking for using different models and providers depending on your use case
-- LLMs should be open sourced :(
+- AI não é LLM
+- Você maomenos como uma LLM funciona
+- A UI da OpenAI é AMAIS
+- Se você não coda, chatGPT é brabo, mas procure outros provedores e modelos e se divirta
+- Se você coda, voc6e devia definitivamente estar olhando para outros modelos e provedores dependendo do seu _use-case_
+- Todos LLMs deveriam ser abertos :(
 
-Best,
+Valeu,
 
 Gabs
