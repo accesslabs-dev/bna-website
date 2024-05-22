@@ -8,7 +8,7 @@ banner:
     enable: true
     label: "Learn About Our Services"
     link: "#services"
-    blog_label: "Explore Our Tech Blogs"
+    blog_label: "Explore Our Tech Blog"
     blog_link: "/blog"
 
 # services
