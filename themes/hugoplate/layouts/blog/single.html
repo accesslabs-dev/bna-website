@@ -36,8 +36,12 @@
               </li>
             {{ end }}
             <li class="mr-4 inline-block">
-              <i class="fa-regular fa-clock mr-2"></i>
+              <i class="fa-regular fa-calendar mr-2"></i>
               {{ time.Format ":date_long" .PublishDate }}
+            </li>
+            <li class="mr-4 inline-block">
+              <i class="fa-regular fa-clock mr-2"></i>
+              {{ .Params.reading_time }} min
             </li>
           </ul>
           <div class="content mb-10">
@@ -63,15 +67,15 @@
               </div>
             {{ end }}
             <div class="lg:col-4 flex items-center">
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (T "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
+              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (T "share") "Facebook" false "email" false "Reddit" false  "Twitter" false "Whatsapp" true "Telegram" false "Linkedin" true "Pinterest" false "Tumblr" false "Vk" false) }}
             </div>
           </div>
           <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
+          {{/*  {{ if site.Config.Services.Disqus.Shortname }}
             <div class="mt-20">
               {{ template "_internal/disqus.html" . }}
             </div>
-          {{ end }}
+          {{ end }}  */}}
         </article>
       </div>
 
