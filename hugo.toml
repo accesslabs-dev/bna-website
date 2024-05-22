@@ -19,6 +19,9 @@ hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/K
 defaultContentLanguage = 'pt-br'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = false
+# enable emoji
+enableEmoji = true
+
 
 ########################### Services #############################
 [services]
