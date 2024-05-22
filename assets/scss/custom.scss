@@ -100,3 +100,59 @@
     font-family: 'Intel One Mono';
     font-weight: 400;
   }
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  th, td {
+    border: 1px solid var(--text-color-light);
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: var(--header-bg-color-light);
+    color: var(--header-text-color-light);
+  }
+
+  td {
+    background-color: var(--bg-color-light);
+  }
+
+  .dotted {
+    border-bottom: 2px dotted var(--text-color-light);
+  }
+
+  .section-title {
+    font-weight: bold;
+  }
+
+  .table-border {
+    border-bottom: 1px solid;
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    th, td {
+      border: 1px solid var(--text-color-dark);
+    }
+
+    th {
+      background-color: var(--text);
+      color: var(--header-text-color-dark);
+    }
+
+    td {
+      background-color: var(--bg-color-dark);
+    }
+  }
+
+  tbody .mb-8 {
+    margin-bottom: 0rem;
+  }
+
+

@@ -227,4 +227,71 @@
     {{ end }}
   {{ end }}
   <!-- /Cases -->
+
+  <!-- Hiring Model -->
+  {{ with .Params.hiring_model }}
+  <section id="hiring" class="section bg-gradient">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10 md:col-12 mb-8 text-center">
+          <h2 class="mb-4">
+            {{ .Title | markdownify }}
+          </h2>
+          <p>
+            {{ .Description | markdownify }}
+          </p>
+        </div>
+      </div>
+      <div class="row justify-center">
+        <div class="col-12">
+          <table class="w-full border-collapse mt-8 text-base">
+            <thead>
+              <tr>
+                {{ range.table_titles }}
+                <th class="border text-center text-lg px-4 py-2 bg-theme-light text-dark btn-primary dark:text-darkmode-light">{{ .title }}</th>
+                {{ end }}
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-border text-dark dark:text-white">
+                {{ range.row1 }}
+                <td class="border px-4 py-2">
+                  {{ if .column}}
+                  <p class="mb-8">
+                    {{ .column | markdownify }}
+                  </p>
+                  {{ end }}
+                    {{ range .bulletpoints }}
+                      <li class="relative mb-4 pl-6">
+                        {{ . | markdownify }}
+                      </li>
+                    {{ end }}
+                </td>
+                {{ end }}
+              </tr>
+              <tr class="text-dark dark:text-white">
+                {{ range.row2 }}
+                <td class="border px-4 py-2">
+                  {{ if .column}}
+                  <p class="mb-8">
+                    {{ .column | markdownify }}
+                  </p>
+                  {{ end }}
+                    {{ range .bulletpoints }}
+                      <li class="relative mb-4 pl-6">
+                        {{ . | markdownify }}
+                      </li>
+                    {{ end }}
+                </td>
+                {{ end }}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  <!-- /Hiring Model -->
+
 {{ end }}

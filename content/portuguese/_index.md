@@ -47,4 +47,31 @@ founders:
     - "Engenheiro Mecânico graduado pela UNICAMP/KTH"
     - "Experiências anteriores na Kraft Heinz e Uber, co-fundador da OnCar e ESM Rental"
     - "Especialista em Gestão de Produtos, Ciência de Dados, Análise de Dados e Planejamento e Análise Financeira (FP&A)"
+
+# Hiring model
+hiring_model:
+  title: "Modelo de Contratação"
+  description: "Na **bna.dev** você possui flexibilidade para a contratação de nossos serviços. Confira aqui:"
+  table_titles:
+    - title: "Tipo de Escopo"
+    - title: "Funcionamento"
+    - title: "Contratação"
+    - title: "Valor"
+  row1:
+    - column: "**Escopo Indefinido:** Preciso de experts em temas diversos para resolver diversos problemas"
+    - column:
+      bulletpoints:
+        - "Reuniões semanais para alinhamento de necessidades"
+        - "Relatório mensal de atividades"
+    - column: "Pacote mínimo de horas mensais"
+    - column: "É cobrado um valor por hora. Mais meses fechados, maior o desconto"
+  row2:
+    - column: "**Escopo Definido:** Preciso de experts para resolver problemas específicos"
+    - column:
+      bulletpoints:
+        - "Definição de atividades e cronograma"
+        - "Reuniões semanais para acompanhar andamento do projeto"
+        - "Documentação e handover do projeto"
+    - column: "Pacote referente às atividades do projeto"
+    - column: "Valor por projeto. Mais projetos fechados, maior o desconto"
 ---
