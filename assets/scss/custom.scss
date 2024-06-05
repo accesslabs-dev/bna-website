@@ -1,162 +1,172 @@
 // Add your own custom styles here
 @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-BoldItalic.woff2') format('woff2');
-    font-weight: bold;
-    font-style: italic;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-LightItalic.woff2') format('woff2');
-    font-weight: 300;
-    font-style: italic;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Intel One Mono';
-    src: url('/fonts/intel-one-mono/IntelOneMono-MediumItalic.woff2') format('woff2');
-    font-weight: 500;
-    font-style: italic;
-  }
+@font-face {
+  font-family: 'Intel One Mono';
+  src: url('/fonts/intel-one-mono/IntelOneMono-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .founder {
-    min-height: 55rem;
-  }
+.founder {
+  min-height: 55rem;
+}
 
-  .testimonial-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 
-  .testimonial {
-    border-radius: 12px;
-    padding: 1.5rem;
-    flex: 1 1 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 30rem; /* Adjust this as needed */
-  }
+.testimonial {
+  border-radius: 12px;
+  padding: 1.5rem;
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 30rem;
+  /* Adjust this as needed */
+}
 
-  .testimonial blockquote {
-    flex-grow: 1;
-  }
+.testimonial blockquote {
+  flex-grow: 1;
+}
 
-  .nav-link {
-    font-weight: 200;
-  }
+.nav-link {
+  font-weight: 200;
+}
 
-  .mb-8, .mb-4 {
-    font-weight: 200;
-  }
+.mb-8,
+.mb-4 {
+  font-weight: 200;
+}
 
-  h1, h2, h3, h4, h5 {
-    font-family: 'Intel One Mono';
-    font-weight: 400;
-  }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Intel One Mono';
+  font-weight: 400;
+}
 
-  option {
-    font-family: 'Intel One Mono';
-    font-weight: 400;
-  }
+option {
+  font-family: 'Intel One Mono';
+  font-weight: 400;
+}
 
-  table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-  }
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
 
-  th, td {
-    border: 1px solid var(--text-color-light);
-    padding: 12px;
-    text-align: left;
+th,
+td {
+  border: 1px solid var(--text-color-light);
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--header-bg-color-light);
+  color: var(--header-text-color-light);
+}
+
+td {
+  background-color: var(--bg-color-light);
+}
+
+.dotted {
+  border-bottom: 2px dotted var(--text-color-light);
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.table-border {
+  border-bottom: 1px solid;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  th,
+  td {
+    border: 1px solid var(--text-color-dark);
   }
 
   th {
-    background-color: var(--header-bg-color-light);
-    color: var(--header-text-color-light);
+    background-color: var(--text);
+    color: var(--header-text-color-dark);
   }
 
   td {
-    background-color: var(--bg-color-light);
+    background-color: var(--bg-color-dark);
   }
+}
 
-  .dotted {
-    border-bottom: 2px dotted var(--text-color-light);
-  }
+tbody .mb-8 {
+  margin-bottom: 0rem;
+}
 
-  .section-title {
-    font-weight: bold;
-  }
+blockquote p {
+  font-family: 'Intel One Mono';
+}
 
-  .table-border {
-    border-bottom: 1px solid;
-  }
-
-  @media (prefers-color-scheme: dark) {
-
-    th, td {
-      border: 1px solid var(--text-color-dark);
-    }
-
-    th {
-      background-color: var(--text);
-      color: var(--header-text-color-dark);
-    }
-
-    td {
-      background-color: var(--bg-color-dark);
-    }
-  }
-
-  tbody .mb-8 {
-    margin-bottom: 0rem;
-  }
-
-  blockquote p {
-    font-family: 'Intel One Mono';
-  }
-
-
+pre {
+  background-color: var(--tw-prose-pre-bg) !important;
+}
