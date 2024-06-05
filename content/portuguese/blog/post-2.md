@@ -2,7 +2,7 @@
 title: "Do zero ao bnaGPT (Parte 0)"
 meta_title: "How to Build Your Own ChatGPT from Scratch - Step-by-Step Guide"
 description: "Artigo ensinando a como criar um chatGPT do zero"
-reading_time: "8"
+reading_time: "5 min"
 date: 2024-06-03T05:00:00Z
 # image: "/images/image-placeholder.png"
 categories: ["LLM"]
@@ -117,7 +117,7 @@ Somente quando realmente existir uma grande vantagem.
 - Veja o nosso artigo [LLMs - 101](https://www.bna.dev.br/blog/post-1/) para entender mais.
 
 Para tudo funcionar você só precisa uma API key do Groq:
-- **Configuração do Groq**. Você pode criar uma API key gratuitamente no [site deles](https://console.groq.com/);
+- **Configuração do Groq**. Você pode criar uma API key gratuitamente no [site deles](https://console.groq.com/)
 
 ### Passo a Passo para iniciantes
 
@@ -480,8 +480,29 @@ API providers). Para isso vamos usar LlamaIndex.
     - utils/loaders.py (para carregar imagens)
     - view/general.py (funcionalidades gerais do front-end,
     por exemplo: mandar mensagens de erro)
+    - settings.py com variáveis globais
 
-6. Aquivos estáticos no diretório `static`.
+6. Arquivos estáticos no diretório `static`
+
+7. Finalmente o arquivo principal da página: Simple_Chatbot.py:
+```
+from view.simple_chatbot import SimpleChatbotView
+
+
+# main function of the Simple Chatbot
+def main():
+    sc = SimpleChatbotView()
+    sc.build_config()
+    chat_input = sc.build_body()
+    sc.build_sidebar()
+    sc.initialize_session()
+    sc.handle_chat_input(chat_input)
+
+
+if __name__ == "__main__":
+    main()
+
+```
 
 
 #### Resultado
