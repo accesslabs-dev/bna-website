@@ -7,7 +7,7 @@ date: 2024-05-21T05:00:00Z
 # image: "/images/image-placeholder.png"
 categories: ["LLM"]
 author: "Gabriel Pinto"
-tags: ["Fácil"]
+tags: ["Read-Only"]
 draft: false
 ---
 
