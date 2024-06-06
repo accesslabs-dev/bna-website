@@ -83,7 +83,7 @@ Vamos usar a biblioteca Streamlit.
 
 Por que Streamlit?
 
-Em nossa singela opnião, é a biblioteca na qual você consegue de maneira mais simples atingir dois objetivos principais:
+Em nossa singela opinião, é a biblioteca na qual você consegue de maneira mais simples atingir dois objetivos principais:
 1. Facilidade de criação;
 2. O seu site não parecer um aplicativo de Windows 98.
 
@@ -113,7 +113,9 @@ Por enquanto tudo funcionará com Groq e o modelo utilizado será o Llama 3 70b.
 
 Por que Groq e Llama 3?
 - Como a ideia é criar um chatGPT, queremos evitar ao máximo usar OpenAI.
-Somente quando realmente existir uma grande vantagem.
+Somente quando realmente existir uma grande vantagem;
+- A combinação Groq e Llama 3 é extremamente rápida e com qualidade similar ao
+GPT4 ou GPT4o;
 - Veja o nosso artigo [LLMs - 101](https://www.bna.dev.br/blog/post-1/) para entender mais.
 
 Para tudo funcionar você só precisa uma API key do Groq:
@@ -134,6 +136,14 @@ import streamlit as st
 3. Criar as configurações e métodos principais do Groq:
 
     3.1. Instanciar cliente para fazer requests para o Groq:
+
+    Importante! Para a segurança da sua API key, é preferível que você use variáveis de ambiente.
+    Você pode ter acesso à elas com o seguinte:
+    ```
+    import os
+    GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+    ```
+
     ```
     # coloque sua API key aqui
     GROQ_API_KEY = <YOUR API KEY>
@@ -204,7 +214,7 @@ for message in st.session_state.messages:
     ```
 8. Rodar em seu terminal:
 ```
-streamlit rum {nome_do_arquivo}
+streamlit run {nome_do_arquivo}
 ```
 
 Pronto :D
@@ -389,7 +399,8 @@ API providers). Para isso vamos usar LlamaIndex.
 
     Nossa opinião LangChain vs LlamaIndex é a seguinte: LangChain é muito abstrato
     e verborrágica (muitas linhas para poucas coisas). Além disso, como vamos depois construir
-    um RAG para conversar com documentos, imagens e etc.. o Llama tem muitas coisas
+    um RAG (geração aumentada de recuperação - uma técnica para aumentar o contexto passado para a
+    LLM - que vamos nos aprofundar nos próximos capítulos) para conversar com documentos, imagens e etc.. o Llama tem muitas coisas
     legais para tudo isso;
 
     Para um simples chat, a API de qualquer modelo serviria. Mas aqui estamos olhando
@@ -501,7 +512,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
+8. Rode em seu terminal:
+```
+streamlit run {Simple_Chatbot.py}
 ```
 
 

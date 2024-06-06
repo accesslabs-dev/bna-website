@@ -105,7 +105,8 @@ There are some others, but they will fit into one of the two problems. If you ha
 For now, everything will work with Groq and the model used will be Llama 3 70b.
 
 Why Groq and Llama 3?
-- Since the idea is to create a ChatGPT, we want to avoid using OpenAI as much as possible. Only when there is a significant advantage.
+- Since the idea is to create a ChatGPT, we want to avoid using OpenAI as much as possible. Only when there is a significant advantage;
+- The combination of Groq and Llama 3 is extremely fast and has a quality similar to GPT-4 or GPT-4o;
 - See our article [LLMs - 101](https://www.bna.dev.br/blog/post-1/) to understand more.
 
 To make everything work, you only need an API key from Groq:
@@ -125,15 +126,22 @@ import streamlit as st
 
 3. Create the main configurations and methods for Groq:
 
-    3.1. Instantiate the client to make requests to Groq::
+    3.1. Instantiate the client to make requests to Groq:
+
+    Important! For the security of your API key, it is preferable to use environment variables. You can access them with the following:
     ```
-    # coloque sua API key aqui
+    import os
+    GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+    ```
+
+    ```
+    # input you API key here
     GROQ_API_KEY = <YOUR API KEY>
-    # Crie o seu cliente
+    # Create your Groq client
     client = Groq(
         api_key=GROQ_API_KEY,
     )
-    # setar o modelo que vamos usar
+    # set the model we're going to use
     MODEL_NAME = "llama3-70b-8192"
     ```
 
@@ -195,7 +203,7 @@ for message in st.session_state.messages:
     ```
 8. Run in your terminal:
 ```
-streamlit rum {nome_do_arquivo}
+streamlit run {nome_do_arquivo}
 ```
 
 Done :D
@@ -368,7 +376,7 @@ class SimpleChatEngine:
 
     Why LlamaIndex?
 
-    Our opinion LangChain vs LlamaIndex is as follows: LangChain is very abstract and verbose (many lines for few things). Besides, as we will later build a RAG to interact with documents, images, etc., Llama has many cool features for all of that;
+    Our opinion LangChain vs LlamaIndex is as follows: LangChain is very abstract and verbose (many lines for few things). Besides, as we will later build a RAG (augmented retrieval generation - a technique to increase the context passed to the LLM - which we will delve into in the next chapters) to interact with documents, images, etc., Llama has many cool features for all of that;
 
     For a simple chat, any model's API would do. But here we are looking at the long-term project and will use n different models from n different APIs, so using a library like LlamaIndex helps a lot when we make changes.
 
@@ -476,6 +484,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+8. Run in your terminal:
+```
+streamlit run {Simple_Chatbot.py}
 ```
 
 #### Result
