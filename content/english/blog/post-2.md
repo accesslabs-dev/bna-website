@@ -465,7 +465,7 @@ class SimpleChatEngine:
     - view/general.py -> general front-end functionalities, for example: sending error messages
     - settings.py with some global variables
 
-6. Arquivos estáticos no diretório `static`.
+6. Static archives in the directory `static`.
 
 7. Finally, the main page file: Simple_Chatbot.py:
 ```
